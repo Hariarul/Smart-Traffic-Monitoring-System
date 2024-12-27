@@ -27,7 +27,7 @@ classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "trai
               "teddy bear", "hair drier", "toothbrush"]
 
 # Streamlit UI components
-st.title("Real-time Object Detection")
+st.title("Smart-Traffic-Monitoring-System")
 st.markdown("This app detects cars, people, and other vehicles.")
 
 # File uploader
