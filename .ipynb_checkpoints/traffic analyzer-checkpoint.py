@@ -11,8 +11,8 @@ import tempfile
 
 # Load YOLO model and Keras models
 model = YOLO("yolov8n-seg.pt")
-color_model = load_model(r"C:\Users\user\Desktop\Computer-Vision-with-Python\06-Deep-Learning-Computer-Vision\car_color_red_blue.h5")
-gender_model = load_model(r"C:\Users\user\Desktop\Computer-Vision-with-Python\06-Deep-Learning-Computer-Vision\gender_male_female.h5")
+color_model = load_model("car_color_red_blue.h5")
+gender_model = load_model("gender_male_female.h5")
 
 # Class names for YOLO
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
